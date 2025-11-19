@@ -1,0 +1,52 @@
+/*
+#################################################################
+# -*- coding: utf-8 -*-
+@Author: Gian Catrina
+@Email: gian.catrina@gmx.ch
+@Date: 19-11-2025 10:34:14
+@Reference1: https://www.w3schools.com/cssref/css_units.php
+@Last Modified by: Gian Catrina
+@Last Modified time: 19-11-2025 16:13:53
+@Description: CSS of a analog clock 
+#################################################################
+*/
+
+
+
+
+/* Here is the basic Layout, which is responsive because of vmin */
+.clock {
+  width: 40vmin;
+  height: 40vmin;
+  border: 0.5vmin solid black;  /* @Reference1: https://www.w3schools.com/cssref/css_units.php */
+  border-radius: 50vmin;
+  position: relative;
+  margin: 5vmin auto;
+}
+
+/*  */
+.hand {
+  width: 1.5%;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform-origin: bottom;
+}
+
+/* Stundenzeiger */
+.hour-hand {
+  height: 30%;
+  background: blue;
+}
+
+/* Minutenzeiger */
+.min-hand {
+  height: 45%;
+  background: black;
+}
+
+
+.second-hand {
+  height: 50%;
+  background: red;
+}

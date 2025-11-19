@@ -1,0 +1,34 @@
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 4px solid black;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px auto;
+}
+
+.hand {
+  width: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform-origin: bottom;
+}
+
+
+.hour-hand {
+  height: 30%;    
+  background: blue;
+}
+
+
+.min-hand {
+  height: 45%;
+  background: black;
+}
+
+
+.second-hand {
+  height: 50%;
+  background: red;
+}
