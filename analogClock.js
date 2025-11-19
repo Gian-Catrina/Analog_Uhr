@@ -4,13 +4,13 @@
 @Author: Gian Catrina
 @Email: gian.catrina@gmx.ch
 @Date: 19-11-2025 10:34:14
-@Reference1: https://www.w3schools.com/cssref/css_units.php
+@Reference1: https://www.w3schools.com/jsref/met_document_queryselector.asp
+@Reference2: https://www.w3schools.com/jsref/jsref_getHours.asp
 @Last Modified by: Gian Catrina
 @Last Modified time: 19-11-2025 16:13:53
 @Description: CSS of a analog clock 
 #################################################################
 */
-
 
 // This is the way, that we can change the html file without directly changing it
 const hourHand = document.querySelector('.hour-hand');

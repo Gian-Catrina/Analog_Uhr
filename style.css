@@ -11,20 +11,17 @@
 #################################################################
 */
 
-
-
-
 /* Here is the basic Layout, which is responsive because of vmin */
 .clock {
   width: 40vmin;
   height: 40vmin;
-  border: 0.5vmin solid black;  /* @Reference1: https://www.w3schools.com/cssref/css_units.php */
+  border: 0.5vmin solid white;  /* @Reference1: https://www.w3schools.com/cssref/css_units.php */
   border-radius: 50vmin;
   position: relative;
   margin: 5vmin auto;
 }
 
-/*  */
+/* Here are general settings for all hands */
 .hand {
   width: 1.5%;
   position: absolute;
@@ -33,20 +30,31 @@
   transform-origin: bottom;
 }
 
-/* Stundenzeiger */
+/* Hour hand */
 .hour-hand {
   height: 30%;
-  background: blue;
+  background: white;
 }
 
-/* Minutenzeiger */
+/* Minute hand */
 .min-hand {
   height: 45%;
   background: black;
 }
 
-
+/* Second hand */
 .second-hand {
   height: 50%;
-  background: red;
+  background: grey;
 }
+/* Changing color of body and adding a fade */
+  html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #2a2a2a, #5a5a5a);
+}
+
+
+
+
