@@ -1,5 +1,3 @@
-[toc]
-
 # Analog Clock
 Welcome to my GitHub Repository :D. Here's how i made a Analog Clock using Java-Script, CSS and HTML. Alltough i have to say, that the HTML file is not a file that i created or modified.
 
