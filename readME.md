@@ -1,22 +1,67 @@
-# Analog Clock
-Welcome to my GitHub Repository :D. Here's how i made a Analog Clock using Java-Script, CSS and HTML. Alltough i have to say, that the HTML file is not a file that i created or modified.
+# 🕒 Analog Clock – JavaScript Project
 
-## Java-Script
-On the Java-Script code i used this 2 References:
-* For querySelector i used: https://www.w3schools.com/jsref/met_document_queryselector.asp
+Welcome to my GitHub repository!   
+This project showcases a simple **analog clock** built using **JavaScript, CSS, and HTML**.  
+Please note: the **HTML file was not created or modified by me**.
 
-* For now.getTime i used: https://www.w3schools.com/jsref/jsref_getHours.asp
+---
 
-Also the Java-Script file only has the function to make the hands work. 
+## 📌 Overview
 
-## CSS
-On the CSS code i used this Reference:
-*  For vmin i used: https://www.w3schools.com/cssref/css_units.php
+This project demonstrates how to create a functional analog clock using basic web technologies.
 
-The CSS file contains the designs and elements. Also the background fade is made in the CSS.
+**Main Features:**
+- Moving hour, minute, and second hands  
+- Responsive CSS design  
+- Smooth background fade effect  
+- Clean and minimal structure  
 
-## HTML
+**Technologies Used:**
+- **HTML** – Base structure (original file by another creator)  
+- **CSS** – Clock design, layout, animations, background effects  
+- **JavaScript** – Functionality of the clock hands
 
-The HTML code isnt written by me as i already said. It is written by @retofroelicher. Also the HTML file is only there to combine the Java-Script and CSS file. 
-  
+---
 
+## 🛠️ JavaScript
+
+The JavaScript file is responsible for calculating and updating the positions of the clock hands based on the current system time.
+
+### 📚 References Used
+- `querySelector`:  
+  https://www.w3schools.com/jsref/met_document_queryselector.asp
+- `Date().getHours()` / `getMinutes()` / `getSeconds()`:  
+  https://www.w3schools.com/jsref/jsref_getHours.asp
+
+### 🔧 What the script does:
+- Fetches current time using `Date()`  
+- Calculates rotation angles for each hand  
+- Applies rotation using inline styles  
+
+---
+
+## 🎨 CSS
+
+The CSS file defines the clock layout, visual styling, and animation effects.
+
+### 📚 Reference Used
+- `vmin` CSS unit:  
+  https://www.w3schools.com/cssref/css_units.php
+
+### 🎨 What the CSS does:
+- Creates the clock frame and hands  
+- Controls responsive sizing  
+- Adds a background fade effect  
+- Positions and styles all elements  
+
+---
+
+## 🧩 HTML
+
+The HTML file **was not written by me**.  
+It was created by **@retofroelicher**, and serves as the structural base that connects the CSS and JavaScript.
+
+### ✔ Purpose of the HTML:
+- Load CSS and JS files  
+- Provide the clock container and elements  
+- No functional logic, only structure  
