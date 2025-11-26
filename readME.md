@@ -17,6 +17,6 @@ The CSS file contains the designs and elements. Also the background fade is made
 
 ## HTML
 
-The HTML code isnt written by me as i already said. It is written by @retofroelicher. Also the HTML file is only there to combine the Java-Script and CSS file. And se
+The HTML code isnt written by me as i already said. It is written by @retofroelicher. Also the HTML file is only there to combine the Java-Script and CSS file. 
   
 
